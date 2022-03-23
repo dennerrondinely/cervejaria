@@ -23,7 +23,7 @@ const List = ({
       <S.TextWrapper>
         <S.Title>Segundo a opinião dos usuários:</S.Title>
         <S.Subtitle>
-          Exibindo {total} de {total < pageSize ? total : pageSize} resultados.
+          Exibindo {total < pageSize ? total : pageSize} de {total} resultados.
         </S.Subtitle>
       </S.TextWrapper>
       <S.ListWrapper>

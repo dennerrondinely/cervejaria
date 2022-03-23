@@ -5,9 +5,8 @@ import Typography from '@mui/material/Typography';
 import Search from 'components/Search';
 import List from 'components/List';
 import Message from 'components/Message';
-import Header from './Header';
+import Container from 'layout/Container';
 
-import backgroundImg from 'assets/background.svg';
 import api, { BreweryListData } from 'services/api';
 
 import * as S from './styles';
@@ -57,9 +56,7 @@ const Home = () => {
     if (id) push(`detalhes/${id}`);
   };
   return (
-    <S.Wrapper>
-      <S.HeaderImage src={backgroundImg} />
-      <Header />
+    <Container>
       <S.Content>
         <S.Header>
           <Typography variant="h2" fontWeight="bold" mb={5}>
@@ -81,7 +78,7 @@ const Home = () => {
           {message && <Message text={message} />}
         </S.ListWrapper>
       </S.Content>
-    </S.Wrapper>
+    </Container>
   );
 };
 

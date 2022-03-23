@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState, useEffect } from 'react';
-import Header from '../Home/Header';
+import Header from '../../components/Header';
 import Typography from '@mui/material/Typography';
 import DetailsCard from 'components/DetailsCard';
 import ModalRate from 'pages/Detalhes/ModalRate';
@@ -8,6 +8,7 @@ import { useParams } from 'react-router-dom';
 import api, { BreweryRatingInput } from 'services/api';
 import { Brewery } from 'types/brewery';
 import * as A from './styles';
+import Container from 'layout/Container';
 
 const DetalhesCervejaria = () => {
   const [status, setStatus] = useState(0);
@@ -41,15 +42,14 @@ const DetalhesCervejaria = () => {
   }, [id]);
 
   return (
-    <A.Wrapper>
-      <Header />
+    <Container>
       <A.Content>
         <Typography variant="h2" fontWeight="bold" mb={5}>
           Detalhes da cervejaria
         </Typography>
         <DetailsCard />
       </A.Content>
-    </A.Wrapper>
+    </Container>
   );
 };
 
