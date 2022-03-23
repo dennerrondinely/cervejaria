@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> should render the Search 1`] = `
+.c4 {
+  height: 24px;
+  width: 24px;
+  height: 24px;
+  width: 24px;
+  stroke: #000;
+  fill: #000;
+}
+
+.c0 {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2.2rem;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.25);
+  border-radius: 2px;
+  padding: 0.8rem 1.8rem;
+  background-color: #ffffff;
+}
+
+.c1 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-letter-spacing: 0.36px;
+  -moz-letter-spacing: 0.36px;
+  -ms-letter-spacing: 0.36px;
+  letter-spacing: 0.36px;
+}
+
+.c3 {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.c5 {
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  -webkit-letter-spacing: 0.36px;
+  -moz-letter-spacing: 0.36px;
+  -ms-letter-spacing: 0.36px;
+  letter-spacing: 0.36px;
+  border: none;
+  color: rgba(0,0,0,0.3);
+}
+
+.c5:focus-within {
+  border: none;
+  outline: 0;
+}
+
+<div
+  class="c0"
+>
+  <h2
+    class="c1"
+  >
+    Faça uma busca...
+  </h2>
+  <div
+    class="c2"
+  >
+    <button
+      class="c3"
+      type="button"
+    >
+      <svg
+        class="c4"
+        color="black"
+        size="24"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16.954 14.6667H15.8919L15.5155 14.3067C16.833 12.7867 17.6262 10.8133 17.6262 8.66667C17.6262 3.88 13.714 0 8.88768 0C4.06133 0 0.14917 3.88 0.14917 8.66667C0.14917 13.4533 4.06133 17.3333 8.88768 17.3333C11.0521 17.3333 13.0418 16.5467 14.5744 15.24L14.9374 15.6133V16.6667L21.6593 23.32L23.6625 21.3333L16.954 14.6667ZM8.88768 14.6667C5.54016 14.6667 2.83794 11.9867 2.83794 8.66667C2.83794 5.34667 5.54016 2.66667 8.88768 2.66667C12.2352 2.66667 14.9374 5.34667 14.9374 8.66667C14.9374 11.9867 12.2352 14.6667 8.88768 14.6667Z"
+          stroke-width="0"
+        />
+      </svg>
+    </button>
+    <input
+      class="c5"
+      placeholder="Buscar"
+    />
+  </div>
+</div>
+`;
