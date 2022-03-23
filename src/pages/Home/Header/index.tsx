@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom';
 import logoImg from '../../../assets/logo.svg';
 import * as S from './styles';
 
 const Header = () => {
   return (
     <S.Wrapper>
-      <img src={logoImg} alt="Beer Logo" height="46.88px" />
+      <Link to="/">
+        <img src={logoImg} alt="Beer Logo" height="46.88px" />
+      </Link>
     </S.Wrapper>
   );
 };
