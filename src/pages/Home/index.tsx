@@ -32,6 +32,7 @@ const Home = () => {
           searchValue,
           pageSize
         });
+        if (!resp || resp.breweryList.length < 1) throw new Error();
         setData(resp);
         setQuery({ searchValue, pageNo, pageSize });
       } else {
